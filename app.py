@@ -7,7 +7,7 @@ import datetime
 st.set_page_config(
     page_title="Interactive Marketing Dashboard",
     page_icon="📈",
-    layout="wide"
+    layout="wide",
 )
 
 # --- Data Loading ---
@@ -101,6 +101,13 @@ if df_raw is not None:
 
     # --- Main Dashboard Area ---
     st.title("📊 Interactive Marketing Analysis")
+    st.markdown("""
+    Assessing our overall marketing portfolio, which channels and campaigns 
+    are most effectively contributing to our key business objectives (e.g., maximizing revenue, 
+    maintaining high efficiency, acquiring customers cost-effectively), and are there any 
+    misalignments in our current spend distribution?
+    """)
+
 
     # --- Apply Filters ---
     start_datetime = datetime.datetime.combine(start_date, datetime.datetime.min.time())
