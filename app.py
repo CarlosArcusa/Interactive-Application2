@@ -102,10 +102,10 @@ if df_raw is not None:
     # --- Main Dashboard Area ---
     st.title("📊 Interactive Marketing Analysis")
     st.markdown("""
-    Assessing our overall marketing portfolio, which channels and campaigns 
-    are most effectively contributing to our key business objectives (e.g., maximizing revenue, 
-    maintaining high efficiency, acquiring customers cost-effectively), and are there any 
-    misalignments in our current spend distribution?
+    When assessing our overall marketing portfolio, which channels and campaigns 
+    are most effectively contributing to our key business objectives — such as maximizing revenue, 
+    maintaining high efficiency, and acquiring customers cost-effectively — and are there any 
+    misalignments in how our current spend is allocated?
     """)
 
 
